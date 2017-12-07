@@ -23,7 +23,7 @@ pipeline {
                  }
                  stage('Deploy') {
                   steps {
-                       echo 'Hello Padmini'
+                       echo 'Hello Padmini1'
                        }
                       }
                      }
