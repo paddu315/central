@@ -2,7 +2,7 @@
 properties([
 [$class: 'GithubProjectProperty',
 displayName: '',
-projectUrlStr: 'https://github.com/paddu315/central/'],
+projectUrlStr: 'https://github.com/paddu315/central.git/'],
 pipelineTriggers([githubPush()])])
 pipeline {
     agent any
@@ -22,7 +22,7 @@ pipeline {
                  }
                  stage('Deploy') {
                   steps {
-                       echo 'Hello Padmini1'
+                       echo 'Hello Padmini2'
                        }
                       }
                      }
