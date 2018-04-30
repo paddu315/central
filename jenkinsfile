@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent any password
     stages {
         stage('Build') {
             steps {
